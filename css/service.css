@@ -1,0 +1,250 @@
+        .service-hero {
+            background-image: url('../image/Industrial Services We Provide.jpg');
+            background-size: cover;
+            background-position: center;
+            padding: 120px 20px;
+            text-align: center;
+            color: #fff;
+        }
+
+        .service-hero h1 {
+            font-size: 48px;
+            margin: 15px 0;
+        }
+
+        .service-hero p {
+            max-width: 700px;
+            margin: auto;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        .service-hero .breadcrumb {
+            font-size: 14px;
+        }
+
+        .services-premium {
+            padding: 80px 0;
+        }
+
+        .services-premium-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+
+        .service-box {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            transition: 0.3s;
+        }
+
+        .service-img img {
+            width: 100%;
+            height: 220px;
+            object-fit: cover;
+        }
+
+        .service-info {
+            padding: 25px;
+            text-align: center;
+        }
+
+        .service-info i {
+            font-size: 30px;
+            color: #ff5722;
+            margin-bottom: 10px;
+        }
+
+        .service-box:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.12);
+        }
+
+        .service-process {
+            padding: 90px 0;
+            background: #f9f9f9;
+        }
+
+        .section-desc {
+            max-width: 650px;
+            margin: 10px auto 50px;
+            color: #555;
+            font-size: 15px;
+            line-height: 1.6;
+        }
+
+        .process-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            position: relative;
+        }
+
+        /* Connecting line */
+        .process-grid::before {
+            content: "";
+            position: absolute;
+            top: 55px;
+            left: 5%;
+            width: 90%;
+            height: 2px;
+            background: #ddd;
+            z-index: 0;
+        }
+
+        .process-step {
+            text-align: center;
+            position: relative;
+            z-index: 1;
+            padding: 0 10px;
+        }
+
+        .step-circle {
+            width: 90px;
+            height: 90px;
+            background: #fff;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            position: relative;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+            transition: 0.3s;
+        }
+
+        .step-circle span {
+            position: absolute;
+            top: 10px;
+            right: 12px;
+            background: #ff5722;
+            color: #fff;
+            font-size: 12px;
+            padding: 3px 8px;
+            border-radius: 12px;
+        }
+
+        .step-circle i {
+            font-size: 28px;
+            color: #ff5722;
+            line-height: 90px;
+        }
+
+        .process-step h4 {
+            margin-bottom: 8px;
+            font-size: 18px;
+        }
+
+        .process-step p {
+            font-size: 14px;
+            color: #555;
+            line-height: 1.5;
+        }
+
+        /* Hover effect */
+        .process-step:hover .step-circle {
+            background: #ff5722;
+            transform: translateY(-6px);
+        }
+
+        .process-step:hover .step-circle i {
+            color: #fff;
+        }
+
+        /* why choose us */
+
+        .why-choose {
+            padding: 90px 0;
+            background: #fff;
+        }
+
+        .choose-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+        }
+
+        .choose-box {
+            background: #f9f9f9;
+            padding: 35px 25px;
+            text-align: center;
+            border-radius: 10px;
+            transition: 0.3s;
+        }
+
+        .choose-box i {
+            font-size: 36px;
+            color: #ff5722;
+            margin-bottom: 15px;
+        }
+
+        .choose-box h4 {
+            margin-bottom: 10px;
+            font-size: 18px;
+        }
+
+        .choose-box p {
+            font-size: 14px;
+            color: #555;
+        }
+
+        .choose-box:hover {
+            background: #ff5722;
+            transform: translateY(-8px);
+        }
+
+        .choose-box:hover i,
+        .choose-box:hover h4,
+        .choose-box:hover p {
+            color: #fff;
+        }
+
+        /* company stats */
+        .company-stats {
+            background: linear-gradient(135deg, #1a1a2e, #111);
+            padding: 80px 0;
+            color: #fff;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            text-align: center;
+        }
+
+        .stat-box h2 {
+            font-size: 42px;
+            color: #ff5722;
+            margin-bottom: 8px;
+        }
+
+        .stat-box p {
+            font-size: 15px;
+            letter-spacing: 0.5px;
+        }
+        /* FAQ Section */
+        .faq {
+    padding: 90px 0;
+    background: #fff;
+}
+
+.faq-list {
+    max-width: 900px;
+    margin: auto;
+}
+
+.faq-item {
+    padding: 25px;
+    border-bottom: 1px solid #ddd;
+}
+
+.faq-item h4 {
+    margin-bottom: 8px;
+    color: #1a1a2e;
+}
+
+.faq-item p {
+    color: #555;
+    font-size: 14px;
+}
+

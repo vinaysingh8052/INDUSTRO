@@ -1,0 +1,21 @@
+# ----------------------------------------------------------------------
+# INDUSTRO - Apache Configuration for InfinityFree and Localhost
+# ----------------------------------------------------------------------
+
+# Ensure DirectoryIndex loads index.php first
+DirectoryIndex index.php index.html
+
+# Prevent directory browsing
+Options -Indexes
+
+# Set default character encoding
+AddDefaultCharset UTF-8
+
+# Rewrite Rules
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
+
+    # Rewrite services.php to service.php
+    RewriteRule ^services\.php$ service.php [L,QSA]
+</IfModule>
